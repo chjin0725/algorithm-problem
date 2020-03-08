@@ -50,3 +50,29 @@ def binary_search_descending(list, value):
   - 첫번째로 [1, -1, -1, -1, -1] 같은 경우에는 1을 반환해줘야 하는데 2를 반환해준다.
   - 두번째로 [1, 0, -3, -4, -4] 같은 경우에는 2 반환해줘야하는데 -1을 찾지 못해서 -1을 반환한다.
   - 파이썬의 bisect 처럼 최초로 조건을 만족하는 부분을 찾아 주도록 바꿀 필요가 있음.
+- 파이썬의 bisect_left의 소스코드를 살펴보자.
+~~~python
+def bisect_left(a, x, lo=0, hi=None):
+    """Return the index where to insert item x in list a, assuming a is sorted.
+    The return value i is such that all e in a[:i] have e < x, and all e in
+    a[i:] have e >= x.  So if x already appears in the list, a.insert(x) will
+    insert just before the leftmost x already there.
+    Optional args lo (default 0) and hi (default len(a)) bound the
+    slice of a to be searched.
+    """
+
+    if lo < 0:
+        raise ValueError('lo must be non-negative')
+    if hi is None:
+        hi = len(a)
+    while lo < hi:
+        mid = (lo+hi)//2
+        if a[mid] < x: lo = mid+1
+        else: hi = mid
+    return lo
+~~~
+- 여기서는 x값이 있으면 최초의 x의 위치를, x가 없으면 x가 들어갈 자리를 찾아주기 떄문에 `if a[mid] == x`와 같은 부분은 없다.
+- x값이 있으면 최초의 x의 위치를, x가 없으면 x가 들어갈 자리를 찾기 위해서는 x이상인 최초의 숫자를 찾아야 한다.
+- 바이너리 서치에서 lo와 hi는 탐색 범위라고 생각하면 된다. 여기서는 lo ~ hi-1을 탐색범위로 정하고 있다.
+- `a[mid] < x`인 경우는 lo ~ mid 까지는 전부 x보다 작기 때문에 볼 필요 없다. 그래서 lo = mid+1을 해주는 것이다.
+- 마찬가지로 `a[mid] >= x`인 경우는 mid 에서 hi 까지는 볼 필요가 없다.(물론 mid가 x일 수 있지만 최초의 x인지 확인해야 하므로 lo ~ mid-1까지 봐야한다. mid부터는 볼 필요 없음) 그래서 hi = mid로 해준다.
