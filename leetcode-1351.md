@@ -133,3 +133,20 @@ class Solution:
   - 현재 보고있는 숫자가 음수면 그 아래로는 전부 음수이므로 이걸 카운팅하고 왼쪽숫자를 확인한다.
   - 현재 보고있는 숫자가 양수면 아래의 숫자를 확인한다.
 - 이건 시간복잡도가 m+n이므로 경우에 따라서 더 빠를 수 있겠다.
+- 구현은 다음과 같다.
+```python
+class Solution:
+    def countNegatives(self, grid: List[List[int]]) -> int:
+
+        ans = 0
+        num_row = len(grid)
+        row = 0
+        col = len(grid[0]) - 1
+        while row < num_row and col >= 0:
+            if grid[row][col] < 0:
+                ans += (num_row - row)
+                col -= 1
+            else:
+                row += 1
+        return ans
+ ```
