@@ -26,7 +26,7 @@ def binary_search_descending(list, value):
   return -1
 ~~~
 
-- 위 코드에서 'mid = (lo+hi)//2' 를 두번 하므로 보기 안좋다. while문 시작 부분으로 옮겨주자.
+- 위 코드에서 `mid = (lo+hi)//2` 를 두번 하므로 보기 안좋다. while문 시작 부분으로 옮겨주자.
 ~~~python
 def binary_search_descending(list, value):
   lo = 0
