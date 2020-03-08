@@ -80,3 +80,50 @@ def bisect_left(a, x, lo=0, hi=None):
 - lo == high가 되기 바로 전 단계를 생각해보자. 탐색범위에 숫자는 두개가 남아 있는 상태에서 하나의 숫자는 lo이자 mid이고 다른 남은 숫자가 hi일 것이다. 이때 a[mid] < x 인 경우와 그렇지 않은 경우를 생각해보자. 두 경우 모두에서 lo == high가 되는 경우까지 계산해 줄 필요가 없음을 알 수 있다.
 - 파이썬의 bisect는 x가 발견되어도 lo < hi 를 만족하지 않을 때까지 계속 while문을 돈다. 그러므로 워스트케이스를 따질 필요 없이 어떤 리스트를 쓰든 시간은 nlogn만큼 걸릴 것이다.(이건 내 생각임)
 
+~~~python
+    def binary_search_descending(self, l, value):
+        lo = 0
+        hi = len(l)
+        mid = (lo+hi)//2
+
+        while lo < hi:
+            mid = (lo+hi)//2
+            if l[mid] > value:
+                lo = mid+1
+            else:
+                hi = mid
+
+
+        return lo
+~~~
+- 이렇게 하면 내림차순에 대해서 같은 기능을 구현할 수 있다.
+- 최종 코드는 아래와 같다.
+~~~python
+class Solution:
+    def countNegatives(self, grid: List[List[int]]) -> int:
+        if len(grid) == 0 or len(grid[0]) == 0:
+            return 0
+        ans = 0
+        n = len(grid[0])
+        for row in grid:
+            idx_of_minus1 = self.binary_search_descending(row,-1)
+            ans += (n-idx_of_minus1)
+        
+        return ans
+            
+    def binary_search_descending(self, l, value):
+        lo = 0
+        hi = len(l)
+        mid = (lo+hi)//2
+
+        while lo < hi:
+            mid = (lo+hi)//2
+            if l[mid] > value:
+                lo = mid+1
+            else:
+                hi = mid
+
+
+        return lo
+~~~
+
