@@ -76,3 +76,41 @@ class Solution:
 ```
 - 이런식으로 함수안에 함수를 정의해서 할 수도 있다.
 - 근데 왜인지는 모르겠지만 속도가 좀 느려지고 메모리 사용량도 좀 늘어났다.
+# 다른 풀이
+- 재귀는 stack overflow를 항상 주의해야 한다.
+- 가능하면 iterative한 방법으로 푸는게 좋다. 다만 재귀가 코드이해가 더 쉽다고 한다(나는 딱히 모르겠음)
+```python3
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def isBalanced(self, root: TreeNode) -> bool:
+        if root is None:
+            return True
+        
+        s = [root]
+        h = dict()
+        while s:
+            cur = s[-1]
+            if cur.left is not None and cur.left not in h:
+                s.append(cur.left)
+            elif cur.right is not None and cur.right not in h:
+                s.append(cur.right)
+            else:
+                cur = s.pop()
+                left_h = 0 if cur.left is None else (h[cur.left]+1)
+                right_h = 0 if cur.right is None else (h[cur.right]+1)
+                
+                if abs(left_h-right_h) > 1:
+                    return False
+                
+                h[cur] = max(left_h, right_h)
+        
+        return True
+```
+- 전위, 중위, 후위 순회는 전부 스택하나로 구현할 수 있다.
+- 조금 깔끔하게 짜보려고 노력했는데 꽤 깔끔하게 짠 것 같다.
