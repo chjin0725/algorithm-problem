@@ -80,7 +80,21 @@ def bisect_left(a, x, lo=0, hi=None):
 - lo == high 인 경우는 볼 필요가 없기 때문에 lo < hi로 조건을 걸어준다( lo != hi로 하면 list의 크기가 1인 경우는 처리할 수 없으므로 lo < hi로 한다)
 - lo == high가 되기 바로 전 단계를 생각해보자. 탐색범위에 숫자는 두개가 남아 있는 상태에서 하나의 숫자는 lo이자 mid이고 다른 남은 숫자가 hi일 것이다. 이때 a[mid] < x 인 경우와 그렇지 않은 경우를 생각해보자. 두 경우 모두에서 lo == high가 되는 경우까지 계산해 줄 필요가 없음을 알 수 있다.
 - 파이썬의 bisect는 x가 발견되어도 lo < hi 를 만족하지 않을 때까지 계속 while문을 돈다. 그러므로 워스트케이스를 따질 필요 없이 어떤 리스트를 쓰든 시간은 nlogn만큼 걸릴 것이다.(이건 내 생각임)
+~~~python
+def bisect_left(a, x, lo=0, hi=None):
 
+
+    if lo < 0:
+        raise ValueError('lo must be non-negative')
+    if hi is None:
+        hi = len(a)
+    while lo <= hi:
+        mid = (lo+hi)//2
+        if a[mid] < x: lo = mid+1
+        else: hi = mid-1
+    return lo
+~~~
+- 탐색범위를 lo ~ hi로 생각한다면 위와 같이 구현하면 된다. while의 조건부분과 hi를 
 ~~~python
     def binary_search_descending(self, l, value):
         lo = 0
