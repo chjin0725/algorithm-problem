@@ -15,4 +15,4 @@ class Solution:
                 ans += 1
         return ans
 ```
-- log10(n)에서 소수점 자리를 제거해도 n의 자리수를 구할 수 있다.
+- log10(n)을  n의 자리수를 구할 수 있다.
