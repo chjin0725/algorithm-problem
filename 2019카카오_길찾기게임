@@ -1,0 +1,70 @@
+## 풀이
+- BST를 만든다. 다만 기존에 만들던 것과는 규칙이 조금 다르지만 어렵지는 않다.
+- 갠히 효율적으로 풀려고 시간을 좀 날렸다. 일단 제일먼저 떠오르는 방법(무식한 방법이라도)을 시도하는게 좋다.
+- 코드 맨위의 sys는 재귀제한을 설정하려고 추가했다. 문제를 보고 인풋크기보다 크게 제한을 설정해야 한다. 안그러면 10000개로 제한된다.
+```python3
+import sys
+sys.setrecursionlimit(10**6)
+class node():
+    def __init__(self, node_info):
+        self.x = node_info[0]
+        self.y = node_info[1]
+        self.num = node_info[2]
+        self.left = None
+        self.right = None
+class bst:
+    def __init__(self):
+        self.root = None
+        
+    def root(self):
+        return self.root
+
+    def insert(self, node_info):
+        new_node = node(node_info)
+        cur = self.root
+        par = self.root
+
+        if not self.root :
+            self.root = new_node
+            return
+
+        while cur :
+            if cur.y > new_node.y and cur.x > new_node.x:
+                par = cur
+                cur = cur.left
+                if cur is None:
+                    par.left = new_node
+            elif cur.y > new_node.y and cur.x < new_node.x : 
+                par = cur
+                cur = cur.right
+                if cur is None:
+                    par.right = new_node
+                    
+def pre(node, path):
+    if node is not None:
+        path.append(node.num)
+        pre(node.left, path)
+        pre(node.right, path)                    
+                    
+def post(node, path):
+    if node is not None:
+        post(node.left, path)
+        post(node.right, path)
+        path.append(node.num)
+        
+def solution(nodeinfo):
+
+    for i in range(len(nodeinfo)):
+        nodeinfo[i].append(i+1)
+    nodeinfo.sort(key = lambda x : x[1], reverse = True)
+    b = bst()
+    for i in range(len(nodeinfo)):
+        b.insert(nodeinfo[i])
+        
+    preorder = []
+    pre(b.root, preorder)
+    postorder = []
+    post(b.root, postorder)
+    answer = [preorder, postorder]
+    return answer 
+```
