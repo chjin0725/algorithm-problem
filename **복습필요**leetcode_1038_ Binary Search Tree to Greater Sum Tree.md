@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1038](https://user-images.githubusercontent.com/51700219/78223133-57ff7d00-7501-11ea-9377-63bbf91955cb.png)
+
 # 풀이
 - 오른쪽 노드 -> 루트 -> 왼쪽 노드 순으로 중위순회 한다.
 - 재귀말고 반복으로 짜는 법을 알아두기
