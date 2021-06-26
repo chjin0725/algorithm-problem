@@ -1,5 +1,4 @@
-# 문제
-![leetcode_771](https://user-images.githubusercontent.com/51700219/78252131-5481eb00-752d-11ea-9293-45f3ce6d5595.png)
+
 # 풀이
 - set을 쓰면 된다.
 ```python3
