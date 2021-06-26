@@ -1,5 +1,4 @@
-# 문제
-![leetcode_590](https://user-images.githubusercontent.com/51700219/79458443-c6c5f580-802c-11ea-9274-28df929da3f4.png)
+
 # 풀이
 - postorder 이므로 스택에 자식노드를 넣을 때 오른쪽 부터 넣는다.
 ```python3
