@@ -1,5 +1,4 @@
-# 문제
-![leetcode_455](https://user-images.githubusercontent.com/51700219/76846734-50df3a80-6884-11ea-98de-1578b2106232.png)
+
 # 풀이
 - 읽자마자 그리디 문제인게 느껴지는 문제임.
 - 뭔가 s가 가장큰 쿠키를 g가장 큰 아이에게 할당하면 될거 같음
