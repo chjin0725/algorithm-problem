@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1290](https://user-images.githubusercontent.com/51700219/78272204-2e1d7900-7548-11ea-89ae-ddc789185b74.png)
+
 # 풀이
 - 하나씩 읽으면서 비트를 shift해주면 된다.
 ```python3
