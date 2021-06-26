@@ -1,5 +1,4 @@
-# 문제
-![leetcode_367](https://user-images.githubusercontent.com/51700219/78023271-53b45200-7391-11ea-98a9-496f00f45110.png)
+
 # 풀이
 - 이진 탐색으로 풀 수 있다.
 ```python3
