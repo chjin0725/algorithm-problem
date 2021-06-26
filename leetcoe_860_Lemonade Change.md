@@ -1,5 +1,4 @@
-# 문제
-![leetcode-860](https://user-images.githubusercontent.com/51700219/77739448-dc12ba00-7054-11ea-847c-d89157a7a496.png)
+
 
 # 풀이
 - 잔돈 문제는 거의다 그리디 인듯.
