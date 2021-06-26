@@ -1,5 +1,4 @@
-# 문제
-![leetcode_123](https://user-images.githubusercontent.com/51700219/77245210-37613880-6c60-11ea-927b-98d6df3aaa17.png)
+
 # 풀이
 - 121번 문제는 최대 거래수가 1번이었는데 이건 최대 거래수가 2번이다.
 - 처음에는 0 <= i <= length(prices)-1인 i에 대해서 0~i까지를 첫번쨰 거래, i+1 ~(length -1)까지를 두번째 거래로 나눈 다음에 최대 거래수가 1번 일때의
