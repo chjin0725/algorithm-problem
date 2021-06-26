@@ -1,5 +1,4 @@
-# 문제
-![leetcode_938](https://user-images.githubusercontent.com/51700219/78265131-00800200-753f-11ea-9469-ecb3f3db0e02.png)
+
 # 풀이
 - 그냥 bst 문제임
 - dfs로 순회하되 순회할 필요 없는 부분은 순회하지 않도록 하였다.
