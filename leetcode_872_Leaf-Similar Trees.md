@@ -1,5 +1,4 @@
-# 문제
-![leetcode_872](https://user-images.githubusercontent.com/51700219/77659037-e4b6b200-6fba-11ea-8353-d689e0064a28.png)
+
 
 # 풀이
 - dfs를 이용하여 풀었다. 단 스택에 노드를 넣을때 오른쪽 자식먼저 넣고 그다음 왼쪽자식을 넣는다.
