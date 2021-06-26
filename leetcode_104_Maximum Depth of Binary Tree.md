@@ -1,5 +1,4 @@
-# 문제
-![leetcode_104](https://user-images.githubusercontent.com/51700219/77741181-d10d5900-7057-11ea-813d-519ee5179005.png)
+
 
 # 풀이
 - level order traversal 로 풀면 된다.
