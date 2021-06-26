@@ -1,5 +1,4 @@
-# 문제
-![leetcode_543](https://user-images.githubusercontent.com/51700219/79039364-bae8c680-7c1b-11ea-96c8-760f5463b2de.png)
+
 # 풀이
 - 왼쪽 -> 오른쪽 -> 루트 순으로 순회하는 post order를 이용.
 - 왼쪽과 오른쪽 서브트리의 높이를 계산해두고 루트를 방문 할때 왼쪽과 오른쪽의 서브트리의 최대값을 루트의 높이로 하면 된다.
