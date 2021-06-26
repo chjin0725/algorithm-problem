@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1413](https://user-images.githubusercontent.com/51700219/79683050-3f61c780-8262-11ea-92b8-65056229dac9.png)
+
 # 풀이
 - 왼쪽에서 오른쪽으로 숫자를 더하면서 볼 때 최소값을 구하면 된다.
 - 즉 prefix sum의 최소값을 구하고 그것의 절대값 +1 을 한다.
