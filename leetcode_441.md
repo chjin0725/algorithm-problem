@@ -1,5 +1,4 @@
-# 문제
-![leetcode_441](https://user-images.githubusercontent.com/51700219/76841121-af53eb00-687b-11ea-975b-e2e4e23aa0ca.png)
+
 
 # 풀이
 - 그냥 중학교 수학문제 같은 문제이다.
