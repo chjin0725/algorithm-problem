@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1277](https://user-images.githubusercontent.com/51700219/78384665-8ec6b780-7615-11ea-8671-4588128dc1c4.png)
+
 # 풀이
 - 처음 봤을때는 dp인지도 몰랐다.
 - brute force같은 아이디어 말고는 다른 풀이법이 떠오르지 않았다.
