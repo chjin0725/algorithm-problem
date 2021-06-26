@@ -1,5 +1,4 @@
-# 문제
-![leetcode_448](https://user-images.githubusercontent.com/51700219/80808700-05e27200-8bfb-11ea-8372-2ec69c36ec98.png)
+
 
 # 풀이
 - 자신에 위치에 있지 않은 숫자가 나오면 자신의 위치로 스왑해준다.
