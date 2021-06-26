@@ -1,5 +1,4 @@
-# 문제
-![leetcode_669](https://user-images.githubusercontent.com/51700219/79943670-6576aa00-84a4-11ea-80b5-8636540d5ca4.png)
+
 # 풀이
 - easy치고는 꽤 어려운 문제였다.
 - 일단 root가 L과 R의 범위를 벗어나면 root를 바꿔야 하므로 그 작업을 먼저 한다.
