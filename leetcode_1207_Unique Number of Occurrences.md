@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1207](https://user-images.githubusercontent.com/51700219/79449418-223cb700-801e-11ea-9536-bd2faa50841f.png)
+
 # 풀이
 - 해쉬 이용하면 간단히 풀림
 ```python3
