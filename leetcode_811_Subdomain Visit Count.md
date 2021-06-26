@@ -1,5 +1,4 @@
-# 문제
-![leetcode_811](https://user-images.githubusercontent.com/51700219/79556017-7063c000-80db-11ea-93b1-e752202eefad.png)
+
 # 풀이
 - 딕셔너리 이용해서 세어주면 됨
 ```python3
