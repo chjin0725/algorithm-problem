@@ -1,5 +1,4 @@
 # 문제
-![leetcode_994](https://user-images.githubusercontent.com/51700219/77844793-6178a480-71e4-11ea-8351-ee389bafb5e8.png)
 
 # 풀이
 - bfs를 이용하면 된다.
