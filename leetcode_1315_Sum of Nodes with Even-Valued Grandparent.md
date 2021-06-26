@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1315](https://user-images.githubusercontent.com/51700219/78158304-0234c180-747c-11ea-8b2d-f5524adac0ce.png)
+
 # 풀이
 - level order traversal 이용
 - 다만 grand parent까지 고려해야 하기 때문에 이 부분을 어찌할지를 고민하였음.
