@@ -1,5 +1,4 @@
-# 문제
-![leetcode_338](https://user-images.githubusercontent.com/51700219/78432334-5aeca000-76b0-11ea-9050-cd80b6a420f9.png)
+
 
 # 풀이
 - dp인것을 미리 알고 문제를 본게 아니라면 dp인 것을 눈치채기가 힘든 문제인 것 같다.
