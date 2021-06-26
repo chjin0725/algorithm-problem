@@ -1,5 +1,4 @@
-# 문제
-![leetcode_122](https://user-images.githubusercontent.com/51700219/78500799-8ac0a400-7793-11ea-963e-4cd91d12ecfd.png)
+
 # 풀이
 - dp 같으면서 greedy인 문제이다.
 - greedy하게 풀면 된다.
