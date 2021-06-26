@@ -1,5 +1,5 @@
 # 문제
-![leetcode_542](https://user-images.githubusercontent.com/51700219/78038783-376fdf80-73a8-11ea-9d8a-5171ee75bbae.png)
+
 # 풀이
 - bfs를 이용하여 풀었다.
 - 그러나 원소가 1인 값을 만날때마다 매번 bfs를 해주니 매우 느릴 것이라 생각했다. 실제로 해보니 풀리긴 했으나 매우 느리다.
