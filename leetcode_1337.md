@@ -1,6 +1,4 @@
-# 문제
-![leetcode_1337_1](https://user-images.githubusercontent.com/51700219/76525298-f1adae80-64ae-11ea-833a-fba62cc244eb.png)
-![leetcode_1337_2](https://user-images.githubusercontent.com/51700219/76525315-fd00da00-64ae-11ea-9776-4d22076c607c.png)
+
 
 # 풀이 
 ```python
