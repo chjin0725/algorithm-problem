@@ -1,5 +1,4 @@
-## 문제
-![leetcode](https://user-images.githubusercontent.com/51700219/89125060-b459c400-d516-11ea-9c50-81fbff7aa18d.png)
+
 
 ## 풀이
 - inplace로 해야하므로 다른 배열을 쓸 순 없다.
