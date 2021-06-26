@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1281](https://user-images.githubusercontent.com/51700219/78254470-edfecc00-7530-11ea-9685-0758af97cb7d.png)
+
 # 풀이
 ```python3
 class Solution:
