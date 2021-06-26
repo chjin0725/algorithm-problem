@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1005](https://user-images.githubusercontent.com/51700219/77720798-4a8f5200-702c-11ea-81f5-4070b29d282c.png)
+
 
 # 풀이
 - A에서 가장 최소값을 계속 뽑아서 -1을 곱해주면 되는 greedy 문제이다.
