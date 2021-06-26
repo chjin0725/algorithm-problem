@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1217](https://user-images.githubusercontent.com/51700219/77822331-fd4ad780-7134-11ea-9419-7596ac3a5166.png)
+
 
 # 풀이
 - 그냥 감으로 푼 것 같다. 문제유형은 모르겠다
