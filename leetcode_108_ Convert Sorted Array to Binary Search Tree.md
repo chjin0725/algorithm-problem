@@ -1,5 +1,4 @@
-# 문제
-![leetcode_108](https://user-images.githubusercontent.com/51700219/77426427-cc5a6200-6e17-11ea-8b2b-713ad8489c28.png)
+
 # 풀이
 - 알고리즘 자체가 어렵진 않다. 중간에 있는 값을 root로 그 왼쪽에 있는 값들을 left sub tree로, 오른쪽도 같은 방식으로 해주면 된다.
 - 중간에 값을 root로 했으면 왼쪽에서 root전까지에 대해서 재귀적으로 똑같이 해주면 될 것이다.
