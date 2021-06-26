@@ -1,5 +1,4 @@
-# 문제
-![leetcode_852](https://user-images.githubusercontent.com/51700219/76521096-7e546e80-64a7-11ea-94fe-cd05ce8d268a.png)
+
 
 # 풀이
 peak을 기준으로 왼쪽 오른쪽 모두 정렬되어 있다. 정렬되어 있으면 이진탐색을 생각해볼 수 있다.
