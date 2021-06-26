@@ -1,5 +1,4 @@
-# 문제
-![leetcode_942](https://user-images.githubusercontent.com/51700219/79444689-780d6100-8016-11ea-873e-2fc126731c54.png)
+
 
 # 풀이
 - D이면 가장 작은것을 넣고 I이면 가장 큰 것을 넣는다.
