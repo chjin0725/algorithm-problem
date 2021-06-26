@@ -1,5 +1,4 @@
-# 문제
-![leetcode_861](https://user-images.githubusercontent.com/51700219/78248461-a4f64a00-7527-11ea-94fa-161b37ee73fb.png)
+
 
 # 풀이
 - 행렬다루는 문제는 특히 코드가 지저분해진다.
