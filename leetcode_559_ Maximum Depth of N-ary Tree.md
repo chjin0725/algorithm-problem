@@ -1,5 +1,4 @@
-# 문제
-![leetcode_559](https://user-images.githubusercontent.com/51700219/77742620-16328a80-705a-11ea-9225-c059ed8c1847.png)
+
 
 # 풀이
 - lever order traversal로 푼다.
