@@ -1,5 +1,4 @@
-# 문제
-![leetcode_746](https://user-images.githubusercontent.com/51700219/77745286-58f66180-705e-11ea-8c02-e42b4a5a4e48.png)
+
 # 풀이
 - 처음에는 그리디인지 dp인지 헷갈렸는데 몇가지 테스트 케이스를 생각해보니 그리디로는 안풀린다.
 - dp이다. 
