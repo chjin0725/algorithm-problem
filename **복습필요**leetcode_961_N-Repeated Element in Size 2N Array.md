@@ -1,5 +1,4 @@
-# 문제
-![leetcode_961](https://user-images.githubusercontent.com/51700219/79244668-21871200-7eb2-11ea-8a5e-e67de9df7278.png)
+
 # 풀이
 - 그냥 정렬하거나 해쉬쓰면 되는 문제.
 - 근데 discuss에 기발한 풀이법이 있길래 알아봄.
