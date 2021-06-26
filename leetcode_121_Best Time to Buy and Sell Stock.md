@@ -1,5 +1,4 @@
-# 문제
-![leetcode_121](https://user-images.githubusercontent.com/51700219/77223311-bee67300-6b9e-11ea-9375-ae82ad04d73e.png)
+
 # 풀이
 - 처음에는 dp인 느낌이 들었다.
 - i번째에서 solution을 가지고 있을 때 i+1번째에서는 어떻게 solution을 구할 수 있을까를 생각해 보았다.
