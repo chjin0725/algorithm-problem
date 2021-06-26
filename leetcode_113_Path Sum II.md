@@ -1,5 +1,4 @@
-# 문제
-![leetcode_113](https://user-images.githubusercontent.com/51700219/77752857-b5ac4900-706b-11ea-8f66-b1618e5cb3fd.png)
+
 # 풀이
 - dfs로 풀 되 백트래킹 할 수 있도록 딕셔너리를 사용하였다.
 ```python3
