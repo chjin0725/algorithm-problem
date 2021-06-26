@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1022](https://user-images.githubusercontent.com/51700219/79682778-f6a90f00-825f-11ea-9056-486ebe8f1173.png)
+
 # 풀이
 - dfs든 bfs든 쓰면 됨
 - 다만 순회하면서 2진수 값을 10진수로 바꿔주도록 한다.
