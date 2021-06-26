@@ -1,5 +1,4 @@
-# 문제
-![leetcode_670](https://user-images.githubusercontent.com/51700219/79341265-7c7a4100-7f66-11ea-9940-88fe50b6bc26.png)
+
 # 풀이
 - level order로 순회하면서 왼쪽 차일드가 둘다 있으면 다음 순회에 방문할 수 있도록 하고 둘중 하나가 없으면 있는쪽을 차일드로 쓴다. 둘다 없으면 그냥 스킵.
 ```python3
