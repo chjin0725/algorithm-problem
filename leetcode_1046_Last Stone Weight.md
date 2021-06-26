@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1046](https://user-images.githubusercontent.com/51700219/77644859-1755b000-6fa5-11ea-8eeb-51a255177eb4.png)
+
 
 # 풀이
 - 매번 가장 무게가 가장 큰 돌과 그다음 돌을 뽑기위해 sort를 해주는 식으로 풀었다.
