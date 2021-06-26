@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1302](https://user-images.githubusercontent.com/51700219/78144597-c5ac9a00-746a-11ea-9a89-d5ccd86d03a3.png)
+
 # 풀이
 - lever order traversal 이용
 ```python3
