@@ -1,5 +1,5 @@
 # 문제
-![leetcode_112](https://user-images.githubusercontent.com/51700219/77750401-0e2d1780-7067-11ea-96a3-811533bcc039.png)
+
 
 # 풀이
 - dfs 문제이다.
