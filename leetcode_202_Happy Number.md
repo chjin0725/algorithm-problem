@@ -1,5 +1,4 @@
-# 문제
-![leetcode_202](https://user-images.githubusercontent.com/51700219/78356985-940f0c80-75eb-11ea-8d60-3577e2b70b6a.png)
+
 # 풀이
 - 예제를 몇개 손으로 풀어보면 happy number가 아닌 것은 cycle이 존재함을 알 수 있다.
 - 즉 이전에 나왔던 숫자가 또 나와서 절대 1이 될 수가 없음.
