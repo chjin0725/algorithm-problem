@@ -1,5 +1,4 @@
-# 문제
-![leetcode_392](https://user-images.githubusercontent.com/51700219/77642935-d27c4a00-6fa1-11ea-90d2-5ddb360d9b47.png)
+
 
 # 풀이
 - 너무 쉬워서 설명은 생략하겠다.
