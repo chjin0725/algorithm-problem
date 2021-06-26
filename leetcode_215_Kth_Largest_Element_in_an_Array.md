@@ -1,5 +1,4 @@
-# 문제
-![20200821_214725](https://user-images.githubusercontent.com/51700219/90892227-f41a1a00-e3f7-11ea-8ed1-df2f65b2e4f2.png)
+
 
 
 # 풀이
