@@ -1,5 +1,4 @@
-# 문제
-![leetcode_844](https://user-images.githubusercontent.com/51700219/78897816-bb634f00-7aad-11ea-8932-ade046cadd73.png)
+
 # 풀이
 - 괄호문제랑 비슷하다. 스택을 써주면 된다
 - ``#``이 나올때마다 스택에서 pop한다.
