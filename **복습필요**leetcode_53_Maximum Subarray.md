@@ -1,5 +1,4 @@
-# 문제
-![leetcode_52](https://user-images.githubusercontent.com/51700219/76594240-e785c180-653b-11ea-88e1-ad5c0dda27f6.png)
+
 
 # 풀이
 - 처음에는 n^2의 방법을 생각해 냈다.
