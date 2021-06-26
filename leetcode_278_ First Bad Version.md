@@ -1,5 +1,4 @@
-# 문제 
-![leetcode_257](https://user-images.githubusercontent.com/51700219/77531631-9203ca00-6ed6-11ea-8ce4-e28452509ff5.png)
+
 
 # 풀이
 - 이진 탐색을 사용한다.
