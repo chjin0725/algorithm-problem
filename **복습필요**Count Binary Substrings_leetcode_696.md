@@ -1,5 +1,4 @@
-# 문제
-![leetcode_696](https://user-images.githubusercontent.com/51700219/80937622-dc9b2f00-8e10-11ea-8f13-c4c0fc65c8f9.png)
+
 # 풀이
 - 0 이 나온 횟수와 1 이 나온 횟수를 세어주면서 계산한다.
 - 현재 숫자와 이전숫자가 같을때랑 다를때로 나눠서 처리해준다.
