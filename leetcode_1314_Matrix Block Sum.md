@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1314](https://user-images.githubusercontent.com/51700219/78421738-e5270b00-7694-11ea-9590-f907844c1360.png)
+
 
 # 풀이
 - dp문제이다.
