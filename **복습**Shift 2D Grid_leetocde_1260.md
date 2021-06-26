@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1260](https://user-images.githubusercontent.com/51700219/79955676-1471b080-84ba-11ea-8719-72c0b367ae8d.png)
+
 # 풀이
 - 역시 행렬문제는 머리 아프다.
 - 근데 이걸 풀다가 좋은 방법이 떠올랐다.
