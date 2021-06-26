@@ -1,5 +1,4 @@
-# 문제
-![leetcode_897](https://user-images.githubusercontent.com/51700219/77631894-91c80500-6f90-11ea-9b26-30219f60e93b.png)
+
 # 풀이
 - 중위 순회하는 코드를 짜면 된다.
 - 재귀로는 쉽지만 반복으로 짜는게 쉽지 않다.
