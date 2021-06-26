@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1021](https://user-images.githubusercontent.com/51700219/79101133-e2b66680-7da2-11ea-9aaf-d24dd85da86a.png)
+
 # 풀이
 - 괄호문제를 좀 변형한 문제. 어렵진 않음.
 ```python3
