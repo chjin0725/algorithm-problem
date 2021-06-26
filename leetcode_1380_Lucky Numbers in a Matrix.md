@@ -1,5 +1,4 @@
-# 문제
-![leetcode_1380](https://user-images.githubusercontent.com/51700219/79345266-db8e8480-7f6b-11ea-8fc8-518c57e2cda0.png)
+
 # 풀이
 - 각 row의 최소값을 찾은 다음 그 값의 열을 확인한다.
 - 열에서 해당 값보다 큰게 없으면 answer에 추가.
