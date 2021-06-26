@@ -1,5 +1,4 @@
-# 문제
-![leetcode_155](https://user-images.githubusercontent.com/51700219/78980648-4b120780-7b59-11ea-9520-12d5c525f7ae.png)
+
 # 풀이
 - 스택에 push할 때 지금까지의 최소값을 튜플로 같이 푸쉬해준다.
 ```python3
