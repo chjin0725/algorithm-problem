@@ -1,5 +1,4 @@
-# 문제
-![leetcode_101](https://user-images.githubusercontent.com/51700219/76839629-2c319580-6879-11ea-8e42-fc8d4b75445f.png)
+
 
 # 풀이
 - bfs 혹은 dfs를 사용하면 되는데 큐 혹은 스택에 넣는 순서를 다르게 해주면 된다.
