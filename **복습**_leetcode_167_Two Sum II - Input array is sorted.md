@@ -1,5 +1,3 @@
-## 문제
-![leetcode_167](https://user-images.githubusercontent.com/51700219/84157032-2e387880-aaa5-11ea-84bc-dc6c0dbb5cf1.png)
 
 ## 풀이
 - 이분탐색을 해준다.
