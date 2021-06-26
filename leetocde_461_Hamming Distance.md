@@ -1,5 +1,4 @@
-# 문제
-![leetcode_461](https://user-images.githubusercontent.com/51700219/79445322-7001f100-8017-11ea-9752-b32e1bcfc041.png)
+
 # 풀이
 - xor을 이용하면 간단하게 풀린다.
 ```python3
