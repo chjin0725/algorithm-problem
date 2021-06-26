@@ -1,9 +1,4 @@
-# 문제
-![leetcode1221](https://user-images.githubusercontent.com/51700219/76138794-c5002e00-608d-11ea-9783-2037dc4a85b2.png)
-  - constraints
-    - 1 <= s.length <= 1000
-    - s[i] = 'L' or 'R'
-    
+
 
 # 풀이
 <pre>
