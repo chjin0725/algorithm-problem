@@ -1,5 +1,3 @@
-# 문제
-![leetcode102](https://user-images.githubusercontent.com/51700219/77246383-e9e9c900-6c69-11ea-8bec-b9133c070c01.png)
 
 # 풀이
 - level order이므로 bfs를 사용한다.
