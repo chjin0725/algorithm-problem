@@ -1,5 +1,4 @@
-# 문제
-![leetcode_763](https://user-images.githubusercontent.com/51700219/78226081-263ce500-7506-11ea-8132-5825e29e1d13.png)
+
 
 # 풀이
 - 그리디 문제
