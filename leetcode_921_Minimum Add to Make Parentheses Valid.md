@@ -1,5 +1,4 @@
-# 문제
-![leetcode_921](https://user-images.githubusercontent.com/51700219/78244495-b425c980-7520-11ea-81c8-d795afbd7822.png)
+
 
 # 풀이
 - 스택으로 푸는 문제
