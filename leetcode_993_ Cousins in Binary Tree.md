@@ -1,5 +1,4 @@
-# 문제
-![leetcode_993](https://user-images.githubusercontent.com/51700219/77531776-d55e3880-6ed6-11ea-9304-490db5a81a66.png)
+
 # 풀이
 - 이진트리를 순회하면 된다.
 - bfs, dfs등을 쓸 수 있으나 그냥 이진트리를 depth별로 순회하도록 구현해 보았다.
