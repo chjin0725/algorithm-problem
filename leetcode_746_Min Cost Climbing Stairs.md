@@ -32,3 +32,19 @@ class Solution:
         return min(cost[-2], cost[-1])
 ```
 - in palce algorithm은 메모리 사용량을 줄일 수 있지만 input자체를 변경하게 되는 단점이 있다.
+
+# 또 다른 풀이
+- 어차피 이전, 전전값만 필요하므로 그냥 변수 2개를 따로 두고 푼다.
+```python3
+class Solution:
+    def minCostClimbingStairs(self, cost: List[int]) -> int:
+        pre_pre = cost[0]
+        pre = cost[1]
+        
+        for i in range(2, len(cost)):
+            temp = min(pre, pre_pre) + cost[i]
+            pre_pre = pre
+            pre = temp
+        
+        return min(pre_pre, pre)
+```
